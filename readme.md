@@ -4,7 +4,7 @@
 [![Build Status](https://github.com/QuantConnect/Lean/workflows/Build%20%26%20Test%20Lean/badge.svg)](https://github.com/QuantConnect/Lean/actions?query=workflow%3A%22Build%20%26%20Test%20Lean%22) &nbsp;&nbsp;&nbsp; [![Regression Tests](https://github.com/QuantConnect/Lean/workflows/Regression%20Tests/badge.svg)](https://github.com/QuantConnect/Lean/actions?query=workflow%3A%22Regression%20Tests%22) &nbsp;&nbsp;&nbsp; [![LEAN Forum](https://img.shields.io/badge/debug-LEAN%20Forum-53c82b.svg)](https://www.quantconnect.com/forum/discussions/1/lean) &nbsp;&nbsp;&nbsp; [![Slack Chat](https://img.shields.io/badge/chat-Slack-53c82b.svg)](https://www.quantconnect.com/slack)
 
 
-[Lean Home][1] | [Documentation][2] | [Download Zip][3] | [Docker Hub][8] | [Nuget][9]
+[Lean Home][1] | [Documentation][2] | [Download Zip][3] | [Docker Hub][8] | [Nuget][9] | [Get Connected][10]
 
 ----------
 
@@ -132,9 +132,17 @@ Seamlessly develop locally in your favorite development environment, with full a
 
 Please submit bugs and feature requests as an issue to the [Lean Repository][5]. Before submitting an issue please read others to ensure it is not a duplicate.
 
-## Mailing List ## 
+## Getting Connected To The Community ##
+
+Joining QuantConnect and becoming part of its thriving community is an excellent way to enhance your algorithmic trading skills, collaborate with like-minded individuals, and stay updated on the latest developments in the world of quantitative finance. To get started, sign up for a free account on the [QuantConnect website](https://www.quantconnect.com/). Once you're registered, you'll have access to QuantConnect's powerful platform, enabling you to develop, backtest, and deploy algorithmic trading strategies seamlessly.
+
+To engage with the community, join the [LEAN Forum](https://www.quantconnect.com/forum/discussions/1/lean) where you can ask questions, share your knowledge, and learn from others. You can also contribute to the open-source [Lean repository](https://github.com/QuantConnect/Lean) on GitHub by submitting bug reports, feature requests, or even code contributions. Remember that all accepted pull requests are eligible for a 2-month free Prime subscription on QuantConnect.
+
+For real-time discussions, join the [QuantConnect Slack](https://www.quantconnect.com/slack) and or the [QuantConnect Discord](https://discord.com/invite/PT7aBN2nkY) to connect with other users and the QuantConnect team. By actively participating in the community, you'll gain valuable insights, receive support on your trading strategies, and contribute to the ongoing innovation of algorithmic trading.
 
 The mailing list for the project can be found on [LEAN Forum][6]. Please use this to request assistance with your installations and setup questions.
+
+Welcome to QuantConnect, and we look forward to your contributions to our ever-growing community!
 
 ## Contributors and Pull Requests ##
 
@@ -161,3 +169,4 @@ Ryan H, Pravin B, Jimmie B, Nick C, Sam C, Mattias S, Michael H, Mark M, Madhan,
   [7]: https://github.com/QuantConnect/Lean/blob/master/CONTRIBUTING.md
   [8]: https://hub.docker.com/orgs/quantconnect/repositories
   [9]: https://www.nuget.org/profiles/jaredbroad
+  [10]: https://discord.com/invite/PT7aBN2nkY
