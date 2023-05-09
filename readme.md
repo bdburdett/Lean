@@ -52,11 +52,44 @@ The most important plugins are:
 
 These are all configurable from the config.json file in the Launcher Project.
 
-## Developing with Visual Studio Code Dev Containers
+## Developing with Visual Studio Code Dev Containers ##
+
+Creating a consistent environment is important for trading using Visual Studio Code Dev Containers makes it easy to get started. Following this step by step setup can create an isolated, simplified workflow that can be used cross platform.
 
 The [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension lets you use a Docker container as a full-featured development environment. The extension starts (or attaches to) a development container running the _quantconnect/research:latest_ image. 
 
-A full explanation of developing Lean with Visual Studio Code Dev Containers can be found in the [VS Code Integration](https://github.com/QuantConnect/Lean/tree/master/.vscode#readme) project.
+A full explanation of developing Lean with Visual Studio Code Dev Containers can be found in the [VS Code Integration](https://github.com/QuantConnect/Lean/tree/master/.vscode#readme) project. You can also follow this guide which provides step-by-step instructions to set up and use Dev Containers with QuantConnect's Lean in Visual Studio Code.
+
+### Prerequisites ###
+
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop) for your operating system (Windows, macOS, or Linux).
+2. Install [Visual Studio Code](https://code.visualstudio.com/).
+3. Install the "Remote - Containers" extension in VS Code:
+   - Open VS Code.
+   - Click on the Extensions icon in the Activity Bar on the side of the window.
+   - Search for "Remote - Containers" and click the Install button.
+
+### Getting Started ###
+
+1. **Clone the Lean repository:**
+- git clone https://github.com/QuantConnect/Lean.git
+- cd Lean
+
+2. **Open the Lean folder in VS Code:**
+- Launch Visual Studio Code.
+- Click on "File" > "Open Folder" and navigate to the Lean folder you just cloned. Click "Open".
+
+3. **Set up the Dev Container:**
+- Once the Lean folder is open in VS Code, you should see a notification in the bottom right corner that says "Folder contains a dev container configuration file. Reopen folder to develop in a container". Click on "Reopen in Container".
+- If you don't see the notification, you can manually reopen the folder in the container by pressing `F1` or `Ctrl+Shift+P` to open the Command Palette, then search for "Remote-Containers: Reopen in Container" and hit Enter.
+- VS Code will now start building the Docker container. This may take a few minutes, especially the first time. Once the container is built, VS Code will automatically attach to it, and you'll be able to develop within the container.
+
+4. **Start developing with Lean:**
+- After VS Code attaches to the container, you'll see the file explorer update to show the contents of the Lean project within the container.
+- You can now edit the code, run, debug, and perform any other development tasks directly within the container.
+
+For more information and details, you can refer to the [VS Code Integration](https://github.com/QuantConnect/Lean/tree/master/.vscode#readme) project in the Lean repository.
+
 
 ## Developing with Lean CLI ##
 
